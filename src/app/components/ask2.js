@@ -1,12 +1,12 @@
 export default function Ask2() {
     return (
         
-        <div className=" flex flex-col justify-between items-center w-full h-full box-border bg-[#f6b112] ">
-        <p className="  border-[#ffffffff]max-lg:text-4xl max-sm:text-2xl max-xl:text-5xl max-2xl:text-6xl leading-relaxed text-8xl   font-poppins  font-[800]  tracking-[4.8px]">
+        <div className=" flex flex-col items-center w-full h-full box-border bg-[#f6b112] ">
+        <p className="  border-[#ffffffff]max-lg:text-4xl max-sm:text-2xl max-xl:text-5xl max-2xl:text-6xl leading-relaxed text-8xl   font-poppins  font-[800]  tracking-[4.8px] bg-clip-text text-transparent bg-gradient-to-r from-black to-black">
           Ask The Hives
         </p>
 <br />
-	<div className="container mx-auto my-4 px-4 lg:px-20">
+	<form className="container mx-auto my-4 px-4 lg:px-20 flex justify-center">
 
 		<div className="w-full p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl ">
        
@@ -40,7 +40,7 @@ export default function Ask2() {
 			</div>
 
 		
-</div>
+</form>
 </div>
 
     )

@@ -6,6 +6,7 @@ import Hero from './components/hero'
 import Navbar from './components/navbar';
 // import Navbar from './components/navbar/Navbar'
 import OurTeam from './ourteam'
+import Upcomming from './components/upcomming'
 
 export default function Home() {
   return (
@@ -14,11 +15,13 @@ export default function Home() {
     {/* <Navbar /> */}
      <Hero />
      <About />
-      <AskTheHives />
+    
+    <Upcomming />
      {/*
     
      <OurTeam /> */}
  <Faqs2 />
+ <AskTheHives />
 <Footer />
   </>
   )

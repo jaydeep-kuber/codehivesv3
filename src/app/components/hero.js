@@ -7,7 +7,7 @@ export default function Hero() {
             alt="Not Found"
             className="w-full h-full max-md:w-[50%] max-md:h-[50%] max-xs:w-[20%] max-xs:w-[20%] max-xl:w-[100%] max-sm:w-[25%] max-sm:h-[15%] max-lg:w-[35%] max-xl:h-[15%] max-lg:h-[15%] min-2xl:w-[100%]"
           />
-          <p className="leading-relaxed  border-[#000000ff]  max-md:text-4xl max-sm:text-3xl max-lg:text-5xl max-xl:text-6xl  2xl:text-8xl  font-poppins  font-[800] bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-blue-500">
+          <p className="leading-relaxed  border-[#000000ff]  max-md:text-4xl max-sm:text-3xl max-lg:text-5xl max-xl:text-6xl  2xl:text-8xl  font-poppins  font-[800] bg-clip-text text-transparent bg-gradient-to-r from-black to-black">
             Welcome To Code Hives
           </p>
           

@@ -27,6 +27,8 @@ export default function Faqs2() {
             </article>
         </details>
     </li>
+    <br />
+        <br />
     <li>
         <details className="group">
             <summary className="bg-[#f6b112] flex items-center gap-3 px-4 py-3 font-medium marker:content-none hover:cursor-pointer">
@@ -46,6 +48,8 @@ export default function Faqs2() {
             </article>
         </details>
     </li>
+    <br />
+        <br />
     <li>
         <details className="group">
             <summary className="bg-[#f6b112] flex items-center gap-3 px-4 py-3 font-medium marker:content-none hover:cursor-pointer">
@@ -65,6 +69,8 @@ export default function Faqs2() {
             </article>
         </details>
     </li>
+    <br />
+        <br />
     <li>
         <details className="group">
             <summary className="bg-[#f6b112] flex items-center gap-3 px-4 py-3 font-medium marker:content-none hover:cursor-pointer">
@@ -83,8 +89,10 @@ export default function Faqs2() {
                     porttitor augue vitae vulputate. Aliquam nec ex maximus, suscipit diam vel, tristique tellus. </p>
             </article>
         </details>
+       
     </li>
-
+    <br />
+        <br />
 </ul>
 </div>
 )
