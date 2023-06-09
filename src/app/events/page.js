@@ -1,13 +1,22 @@
-import Events from "../components/event/Events";
+import Footer from "../components/Footer";
+import Navbar from "../components/navbar";
+import Pastevent from "../components/pastevent";
 
-function Event() {
+function Events() {
     return (
-      <section className="mt-16 mb-12 container-70  bg-[#f6b112]">
+      <>
+      <Navbar />
+
+<section className=" container-70  bg-[#f6b112]">
+      
+      
       <div className="my-16 w-full text-center">
      
-<Event />
+<Pastevent />
 </div>
+<Footer />
 </section>
+</>
 );
 
 }
