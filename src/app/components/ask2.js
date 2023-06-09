@@ -6,41 +6,49 @@ export default function Ask2() {
           Ask The Hives
         </p>
 <br />
+<div className="container mx-auto my-4 px-4 lg:px-20 flex justify-center">
 
-	<form className="container mx-auto my-4 px-4 lg:px-20 flex justify-center">
-
-		
-       	<div className="grid grid-cols-1 gap-5 md:grid-cols-2 mt-10   justify-center">
+		    <form action="https://script.google.com/macros/s/AKfycbzjY9y1pwndHLfPoAz4VWCcGEVZ_jtw6b6385RIBlr0/dev" method="post">
+            <div className="grid grid-cols-1 gap-5 md:grid-cols-2 mt-10   justify-center">
+            
+       
+       
                 <label className="text-black" >Name</label><br />
-				<input className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-full focus:outline-none  focus:shadow-outline"
+				<input name='name' className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-full focus:outline-none  focus:shadow-outline"
             type="text" placeholder="First Name*" /><br />
 
                 <label className="text-black" >Email</label><br />
 			
 			
-				<input className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-full focus:outline-none focus:shadow-outline"
+				<input name="email" className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-full focus:outline-none focus:shadow-outline"
             type="email" placeholder="Email*" />
 			<br />	    <label className="text-black">Contact Number</label><br />
 			
                 <input className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-full focus:outline-none focus:shadow-outline"
-            type="number" placeholder="Phone*" />
+            type="number" name="number" placeholder="Phone*" />
             <br />
         
 				
 			    <label className="text-black">Say Something ....</label><br />
 			
-            		<textarea placeholder="Message*" className="w-40 h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline "></textarea>
+            		<textarea placeholder="Message*" name='say' className="w-40 h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline "></textarea>
 				<br />
-                </div>
-        	</form>
-            	<div className="sm:w-[400] sm:h-full xxs:h-full  xxs:w-[400] md:w-1/2   lg:w-1/4 flex justify-center">
-					<button className="uppercase text-sm font-bold tracking-wide bg-black text-gray-100 p-3 rounded-lg lg:w-1/4 sm:w-[400]  xxs:w-[200]   justify-center
+                
+        	
+                <button className="uppercase text-sm font-bold tracking-wide bg-black text-gray-100 p-3 rounded-lg w-full  justify-center
                       focus:outline-none focus:shadow-outline shadow-xl">
             Send Message
           </button>
-				</div>
-			</div>
+           
+          </div>
 
+          </form>
+</div>
+</div>
+
+
+         
+      
 		
 
     )

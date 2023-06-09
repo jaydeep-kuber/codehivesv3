@@ -14,27 +14,28 @@ export default function Upcomming() {
       
 
         <div className=" pt-5 pr-2 pl-2 flex flex-row justify-around flex-wrap">
-          <div className="flex flex-col items-center m-2">
+        <form action="https://script.google.com/macros/s/AKfycbwQ-1YceM31L4i2rQw_0ZKC7sfYySnN8UVQpkDLU4o/dev" method="post">
+         <div className="flex flex-col items-center m-2">
           <label  >Name</label>
 				<input className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-full focus:outline-none  focus:shadow-outline"
-            type="text" placeholder="First Name*" /><br />
+            type="text" name="name" placeholder="First Name*" /><br />
          
          <label  >Surname</label>
 				<input className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-full focus:outline-none  focus:shadow-outline"
-            type="text" placeholder="First Name*" /><br />
+            type="text" name='surname' placeholder="First Name*" /><br />
           <label  >Department</label>
 				<input className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-full focus:outline-none  focus:shadow-outline"
-            type="text" placeholder="First Name*" /><br />
+           name ='department'  type="text" placeholder="First Name*" /><br />
           <label  >Mobile Number</label>
 				<input className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-full focus:outline-none  focus:shadow-outline"
-            type="number" placeholder="First Name*" /><br />
+            type="number" name="number" placeholder="First Name*" /><br />
          	<button className="uppercase text-sm font-bold tracking-wide bg-black text-gray-100 p-3 rounded-lg w-full  justify-center
                       focus:outline-none focus:shadow-outline shadow-xl">
             Send Message
           </button>
          
           </div>
-       
+       </form>
       
         </div>
 
