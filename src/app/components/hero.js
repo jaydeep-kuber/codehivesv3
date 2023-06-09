@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function Hero() {
     return (
       <div className=" flex flex-col justify-center items-center w-full h-full pl-5 pr-20 py-30 box-border  bg-[#f6b112]">
-        <div className=" flex flex-row justify-between items-center h-[100%] box-border">
+        <div className=" flex flex-row justify-between items-center w-full  box-border">
           <Image
             src={'/logo.png'}
             alt="Not Found"

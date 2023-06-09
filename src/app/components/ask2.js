@@ -33,8 +33,8 @@ export default function Ask2() {
 				<br />
                 </div>
         	</form>
-            	<div className=" w-full lg:w-1/4 flex justify-center">
-					<button className="uppercase text-sm font-bold tracking-wide bg-black text-gray-100 p-3 rounded-lg w-1/2 sha
+            	<div className="sm:w-[400] sm:h-full xxs:h-full  xxs:w-[400] md:w-1/2   lg:w-1/4 flex justify-center">
+					<button className="uppercase text-sm font-bold tracking-wide bg-black text-gray-100 p-3 rounded-lg lg:w-1/4 sm:w-[400]  xxs:w-[200]   justify-center
                       focus:outline-none focus:shadow-outline shadow-xl">
             Send Message
           </button>
