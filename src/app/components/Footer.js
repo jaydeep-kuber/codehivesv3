@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer() {
     return (
      
@@ -6,7 +8,11 @@ export default function Footer() {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
               <a href="" className="flex items-center">
-                  <img src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/4rm1mrho7s4-3%3A39?alt=media&token=4c4d9df8-0744-49fe-b08d-5c588c162961" className="h-8 mr-3" alt=" Logo" />
+                  <Image src={'/logo.png'} 
+                  className="h-8 mr-3"
+                   alt=" Logo"
+                   height={32}
+                   width={32} />
                       </a>
           </div>
           <div className="grid grid-cols-1 gap-8 sm:gap-8 sm:grid-cols-3 xxs:w-[575px] w-full h-full">

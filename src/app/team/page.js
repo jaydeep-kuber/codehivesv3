@@ -4,9 +4,14 @@
 import TeamCard from '../components/teams/TeamCard';
 import Styles from '../components/teams/Team.module.css';
 import { menter,Director, Core,Team2k22 } from '../../../lib/data/TeamData';
+import Navbar from '../components/navbar';
+import Footer from '../components/Footer';
 
 function Teams() {
   return (
+
+    <>
+<Navbar />
       <section className="mt-16 mb-12 container-70  bg-[#f6b112]">
         <div className="my-16 w-full text-center">
           {/* <BottomGlitter text="Our Team" /> */}
@@ -15,7 +20,15 @@ function Teams() {
       
 
         </div>
-        <h2 className={Styles.postHead}>Mentor</h2>
+
+
+        
+     
+
+        <h2 className=" text-white z-10 bg-[#5865F2] absolute pl-8 pr-8 pb-2 pt-2  rounded-tl-2xl rounded-br-2xl font-semibold">Mentor</h2>
+        <br />
+        <br />
+        
         <div className={Styles.cardContainer}>
           {menter.map((item, index) => {
             return (
@@ -33,7 +46,14 @@ function Teams() {
         </div>
 
        
-        <h2 className={Styles.postHead}>Mentor</h2>
+        <div
+        className="w-full h-full rounded-lg flex flex-col  bg-[#f6b112]  ">
+        
+        <h2 className=' text-white z-10 bg-[#5865F2] absolute pl-8 pr-8 pb-2 pt-2  rounded-tl-2xl rounded-br-2xl font-semibold'>Director</h2>
+        
+       <br /> 
+       <br />
+      
         <div className={Styles.cardContainer}>
           {Director.map((item, index) => {
             return (
@@ -50,8 +70,15 @@ function Teams() {
             );
           })}
         </div>
+        </div>
+        <div
+        className="w-full h-full rounded-lg flex flex-col  bg-[#f6b112]  ">
         
-        <h2 className={Styles.postHead}>Core Team</h2>
+        <h2 className=' text-white z-10 bg-[#5865F2] absolute pl-8 pr-8 pb-2 pt-2  rounded-tl-2xl rounded-br-2xl font-semibold'>Core Team</h2>
+        
+       <br /> 
+       <br />
+      
         <div className={Styles.cardContainer}>
           {Core.map((item, index) => {
             return (
@@ -67,9 +94,17 @@ function Teams() {
 
             );
           })}
+           </div>
         </div>
-          
-        <h2 className={Styles.postHead}> Team 2K23</h2>
+        
+        <div
+        className="w-full h-full rounded-lg flex flex-col  bg-[#f6b112]  ">
+        
+        <h2 className=' text-white z-10 bg-[#5865F2] absolute pl-8 pr-8 pb-2 pt-2  rounded-tl-2xl rounded-br-2xl font-semibold'>Team 2k23</h2>
+        
+       <br /> 
+       <br />
+      
         <div className={Styles.cardContainer}>
           {Team2k22.map((item, index) => {
             return (
@@ -86,8 +121,10 @@ function Teams() {
             );
           })}
         </div>
-
+</div>
       </section>
+<Footer />
+      </>
   );
 }
 
