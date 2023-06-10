@@ -1,6 +1,6 @@
 export default function About() {
     return (
-      <div className=" flex flex-col justify-center items-center w-full h-full pl-10 pr-20 pt-10 pb-20 box-border  bg-[rgba(69,67,69,1)]">
+      <div className=" flex flex-col justify-center items-center w-full h-full pl-10 pr-20 pt-10 pb-20 box-border  bg-[rgba(69,67,69,1)]" id="aboutUs">
         <div className=" flex flex-col justify-center items-center w-full h-full box-border">
           <p className="  border-[#ffffffff]max-lg:text-4xl max-sm:text-2xl max-xl:text-5xl max-2xl:text-6xl leading-relaxed text-8xl   font-poppins  font-[800]  tracking-[4.8px]">
             About Us
