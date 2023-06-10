@@ -41,16 +41,25 @@ function Navbar() {
      >
        <div className="text-sm lg:flex-grow">
          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
-           First Link
+           Home
          </a>
          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
-           Second Link
+          About Us
          </a>
          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
-           Third Link
+           Events
          </a>
          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
-           Fourth Link
+           FAQs
+         </a>
+         <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+           Contact Us
+         </a>
+         <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+           Our Team
+         </a>
+         <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+           Bee Hive 
          </a>
        </div>
        <div>
