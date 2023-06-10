@@ -20,13 +20,13 @@ export default function Footer() {
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Social Links</h2>
                   <ul className="text-gray-600 dark:text-gray-400 font-medium">
                       <li className="mb-4">
-                          <a href="/" className="hover:underline">Instagram</a>
+                          <a href="https://instagram.com/code.hives?igshid=MzRlODBiNWFlZA=="                   className="hover:underline">Instagram</a>
                       </li>
                       <li>
-                          <a href="/" className="hover:underline">LinkeIn </a>
+                          <a href="https://www.linkedin.com/in/code-hives-gecp-0830a9250" className="hover:underline">LinkeIn </a>
                       </li>
                       <li>
-                          <a href="" className="hover:underline">Youtube </a>
+                          <a href="https://youtube.com/@codehives8821" className="hover:underline">Youtube </a>
                       </li>
                   </ul>
               </div>
