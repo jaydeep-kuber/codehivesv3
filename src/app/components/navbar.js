@@ -40,7 +40,7 @@ function Navbar() {
        className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"}`}
      >
        <div className="text-sm lg:flex-grow">
-         <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+         <a href="/#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
            First Link
          </a>
          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
